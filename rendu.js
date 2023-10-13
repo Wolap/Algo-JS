@@ -72,7 +72,7 @@ function Partie(nbMortAttack, nbMortDef) {
                     nbMortAttack += 1
                 }
     
-                if(nbMortAttack != 5 && nbMortDef != 5) {
+                if(nbMortAttack == 5 || nbMortDef == 5) {
                     spikePose = false
                 }
             }
