@@ -39,10 +39,10 @@ function getRandomInt(max) { // random entre 0 et un max défini
 // ne pas splice la liste, il faut faire un compteur de mort un pour chaque équipe, on le réinitialise à chaque manche
 function Partie(nbMortAttack, nbMortDef) {
 
-    spikeChance = 0
-    spikePose = false
-    mancheAttack = 0
-    mancheDef = 0
+    let spikeChance = 0
+    let spikePose = false
+    let mancheAttack = 0
+    let mancheDef = 0
 
     while(mancheAttack != 13 && mancheDef != 13) {
 
@@ -60,7 +60,7 @@ function Partie(nbMortAttack, nbMortDef) {
         if(spikeChance > (Math.random() * 100)) {
 
             spikePose = true
-            chanceAttack = 70
+            let chanceAttack = 70
             console.log("Le spike a été posé")
             
             while(spikePose) {
