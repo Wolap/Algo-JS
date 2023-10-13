@@ -1,36 +1,4 @@
 
-// class TaxisMusic {
-//     constructor(name, santeMental) {
-//         this.name = name
-//         this.santeMental = santeMental
-//     }
-    
-//     randomizer() {
-//         const list = ["Fight Song-Eve", "Anissa-Wejdene", "SmileFlower-Seventeen", "Hana-INI", "Firework-&TEAM"]
-//         return Math.floor(Math.random() * list.length) //juste pour avoir un random entier
-//     }
-
-//     Trajet(personnages, santeMental) {
-    
-//         let nbTaxis = 0
-    
-//         console.log(randomizer())
-    
-//         for(let i = 30; i> 0; i--) {
-            
-//             if(list[randomizer()] == "Anissa-Wejdene") {
-//                 santeMental --
-//                 nbTaxis ++
-//                 console.log("La musique joué est " + list[random] + " il reste " + i + " feux rouges avant d'arriver")
-//             }
-            
-//         }
-//     }
-  
-// }
-
-
-
 
 function Trajet(personnages, santeMental) {
     const list = ["Fight Song-Eve", "Anissa-Wejdene", "SmileFlower-Seventeen", "Hana-INI", "Firework-&TEAM"]
@@ -66,7 +34,6 @@ function Trajet(personnages, santeMental) {
     }
 }
 
-// let personnages = new TaxisMusic("John", 10)
 
 Trajet("John", 10)
 

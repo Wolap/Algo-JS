@@ -35,7 +35,6 @@ let tueur = new Tueur("Jason", 100)
 
 let listSurvi = [survivant1, survivant2, survivant3, survivant4, survivant5]
 
-// retirer la classe tueur, mettre dans le while et revoir la condition 
 
 function Massacre(tueur, listSurvi) {
 
